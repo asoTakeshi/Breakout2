@@ -498,6 +498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c583d74c3db4be24aa23b64f67d03900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.1
+  limitPos: 4.25
 --- !u!65 &748510081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -653,7 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2faf00763f59904c8e30afdcde1637a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxObjPrefab: {fileID: 5659661662129291581, guid: f483581220181494da50432d8fca8b56, type: 3}
+  boxObjPrefab: {fileID: 7895467245242696304, guid: f483581220181494da50432d8fca8b56, type: 3}
   boxesObj: {fileID: 778610200}
 --- !u!1 &911343625
 GameObject:
