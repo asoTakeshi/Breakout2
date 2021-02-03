@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Destroyer : MonoBehaviour
 {
+    public int point;  
     public GameObject masterObj;
     // Start is called before the first frame update
     void Start()
@@ -16,8 +17,10 @@ public class Destroyer : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
+        //スコア処理を追加
+        FindObjectOfType<Score>().AddPoint(point);
         masterObj.GetComponent<GameMaster>().boxNum--;
         Destroy(gameObject);
     }
