@@ -594,6 +594,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0.1
   limitPos: 4.25
+  tilt: 20
+  duration: 0.1
+  isTilt: 0
 --- !u!65 &748510081
 BoxCollider:
   m_ObjectHideFlags: 0
