@@ -828,7 +828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2faf00763f59904c8e30afdcde1637a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxObjPrefab: {fileID: 7895467245242696304, guid: f483581220181494da50432d8fca8b56, type: 3}
+  boxObjPrefabs:
+  - {fileID: 7895467245242696304, guid: f483581220181494da50432d8fca8b56, type: 3}
+  - {fileID: 196136191245678211, guid: 79fa427092dd66044a33f3a3e6e1cba8, type: 3}
+  - {fileID: 8600564485987401882, guid: 5cb845fb94765e840b3cdf2ac97cea0a, type: 3}
   boxesObj: {fileID: 778610200}
 --- !u!1 &911343625
 GameObject:
